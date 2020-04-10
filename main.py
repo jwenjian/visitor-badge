@@ -45,7 +45,7 @@ def visitor_svg() -> Response:
     req_source = identity_request_source()
 
     if not req_source:
-        return invalid_count_resp('Unknown Referer')
+        return invalid_count_resp('Missing required param: page_id')
 
     latest_count = update_counter(req_source)
 
@@ -70,9 +70,9 @@ def index() -> Response:
 
 
 def identity_request_source() -> str:
-    ref = request.referrer
-    if ref:
-        return md5(ref.encode('utf-8')).hexdigest()
+    page_id = request.args.get('page_id')
+    if page_id is not None and page_id != '':
+        return md5(page_id.encode('utf-8')).hexdigest()
     return None
 
 
