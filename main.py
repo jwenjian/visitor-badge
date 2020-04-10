@@ -70,7 +70,7 @@ def index() -> Response:
 
 
 def identity_request_source() -> str:
-    ref = request.headers['Referer']
+    ref = request.referrer
     if ref:
         return md5(ref.encode('utf-8')).hexdigest()
     return None
