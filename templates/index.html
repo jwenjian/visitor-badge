@@ -2,103 +2,122 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👀</text></svg>">
-<!--    replace with cdn address-->
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👀</text></svg>">
+    <!--    replace with cdn address-->
     <link rel="stylesheet" href="https://andybrewer.github.io/mvp/mvp.css">
 
     <meta charset="utf-8">
-<!--    keywords-->
+    <!--    keywords-->
     <meta name="keywords" content="visitor count,visitor track,badge, markdown, github, free">
-<!--    description-->
-    <meta name="description" content="Visitor badge for markdown file, put it in your GitHub README.md to know how many uses visited your repo! For Free!">
+    <!--    description-->
+    <meta name="description"
+          content="Visitor badge for markdown file, put it in your GitHub README.md to know how many uses visited your repo! For Free!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Visitor Badge</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="/"><img alt="Logo" src="https://via.placeholder.com/200x70?text=Logo" height="70"></a>
-            <ul>
-                <li>Home</li>
-                <li><a href="#">Docs</a></li>
-                <li><a href="https://github.com/jwenjian/visitor-badge" target="_blank">GitHub &nearr;</a></li>
-            </ul>
-        </nav>
-        <h1>Count visitors for your <i>README.md, Issues, PRs</i> in <u>GitHub</u></h1>
-        <p>in just <mark>one line markdown code</mark></p>
-        <p><img src="https://visitor-count-badge.herokuapp.com/total.svg?repo_id=jwenjian.visitor_badge"></p>
-        <br>
-        <p><a href="#docs"><i>💗 Donate 💗</i></a><a href="#docs"><b>Getting started</b></a></p>
-    </header>
-    <main>
-        <hr>
-        <article id="docs">
-            <h2>Docs</h2>
-            <p>How to use?</p>
-            <aside>
-                <p>If you know how to add picture in markdown, then you are good to go.</p>
-            </aside>
-            <p>All you have to do is to add below <mark>markdown markup</mark> to your markdown content: </p>
-            <pre>
+<header>
+    <nav>
+        <a href="/"><img alt="Logo" src="https://via.placeholder.com/200x70?text=Logo" height="70"></a>
+        <ul>
+            <li>Home</li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="https://github.com/jwenjian/visitor-badge" target="_blank">GitHub &nearr;</a></li>
+        </ul>
+    </nav>
+    <h1>Count visitors for your <i>README.md, Issues, PRs</i> in <u>GitHub</u></h1>
+    <p>in just
+        <mark>one line markdown code</mark>
+    </p>
+    <p><img src="https://visitor-count-badge.herokuapp.com/total.svg?repo_id=jwenjian.visitor_badge"></p>
+    <br>
+    <p><a href="#docs"><i>💗 Donate 💗</i></a><a href="#docs"><b>Getting started</b></a></p>
+</header>
+<main>
+    <hr>
+    <article id="docs">
+        <h2>Docs</h2>
+        <p>How to use?</p>
+        <aside>
+            <p>If you know how to add picture in markdown, then you are good to go.</p>
+        </aside>
+        <p>All you have to do is to add below
+            <mark>markdown markup</mark>
+            to your markdown content:
+        </p>
+        <pre>
                 <code lang="markdown">
                     ![visitors](https://visistor-badge.glitfh.me/badge?page_id=page.id)
                 </code>
             </pre>
-            <p>In which, the url parameter <mark>page_id</mark> is <b>REQUIRED</b>, please use the unique string to best represent your page.</p>
-            <p id="page_id_rule">I recommend you to follow <code>page_id</code> rules below:</p>
-            <ol>
-                <li>For README.md file, use <i>${your.username}.${your.repo.id}</i>, <code>https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge</code> for example.</li>
-                <li>For Issue body, use <i>${your.username}.${your.repo.id}.issue.${issue.id}</i>, <code>https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge.issue.1</code> for example.</li>
-            </ol>
-            <p>or any other markdown content, please give an unique string to distinguish</p>
-        </article>
-        <hr>
-        <div id="faq">
-            <header>
-                <h2>FAQ</h2>
-            </header>
-            <details id="faq-use-in-html">
-                <summary>Can I use this in HTML file?</summary>
-                <p>Sure!</p>
-                <p>All you have to do is to insert a <code>&lt;img&gt;</code> to your HTML:</p>
-                <pre>
+        <p>In which, the url parameter
+            <mark>page_id</mark>
+            is <b>REQUIRED</b>, please use the unique string to best represent your page.
+        </p>
+        <p id="page_id_rule">I recommend you to follow <code>page_id</code> rules below:</p>
+        <ol>
+            <li>For README.md file, use <i>${your.username}.${your.repo.id}</i>, <code>https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge</code>
+                for example.
+            </li>
+            <li>For Issue body, use <i>${your.username}.${your.repo.id}.issue.${issue.id}</i>, <code>https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge.issue.1</code>
+                for example.
+            </li>
+        </ol>
+        <p>or any other markdown content, please give an unique string to distinguish</p>
+    </article>
+    <hr>
+    <div id="faq">
+        <header>
+            <h2>FAQ</h2>
+        </header>
+        <details id="faq-use-in-html">
+            <summary>Can I use this in HTML file?</summary>
+            <p>Sure!</p>
+            <p>All you have to do is to insert a <code>&lt;img&gt;</code> to your HTML:</p>
+            <pre>
                     <code lang="html">
                         &lt;img src="https://visitor-badge.glitch.me/badge?page_id=page.id" alt="visitor badge"/&gt;
                     </code>
                 </pre>
-                <p>For page_id parameter, follow <a href="#page_id_rule">the rules.</a></p>
-            </details>
-            <details>
-                <summary>Is this free?</summary>
-                <p>Yes and it will always be free and no limitations!</p>
-                <p>If you found this useful, you can <a href="#">buy me a coffee ☕️ </a> or <a href="https://github.com/jwenjian/visitor-badge" target="_blank">give a star ✨</a></p>
-            </details>
-        </div>
-        <hr>
-        <section>
-            <header>
-                <h2>What's next?</h2>
-                <p>What new features will be available in the next release?</p>
-            </header>
-            <aside>
-                <h3>Count by day support</h3>
-                <p>The badge is counting visitors in all time, but it will be more useful to count visitors in current date（24h）</p>
-                <p><small>*with small content</small></p>
-            </aside>
-            <aside>
-                <h3>Statistics</h3>
-                <p>Line chart of visitors in latest 7 days <sup>or longer</sup></p>
-            </aside>
-        </section>
-    </main>
-    <footer>
-        <hr>
-        <p>
-            Made by <a href="https://github.com/jwenjian" target="_blank">Wenjian Jiang</a> and ❤️
-        </p>
-    </footer>
+            <p>For page_id parameter, follow <a href="#page_id_rule">the rules.</a></p>
+        </details>
+        <details>
+            <summary>Is this free?</summary>
+            <p>Yes and it will always be free and no limitations!</p>
+            <p>If you found this useful, you can <a href="#">buy me a coffee ☕️ </a> or <a
+                    href="https://github.com/jwenjian/visitor-badge" target="_blank">give a star ✨</a></p>
+        </details>
+    </div>
+    <hr>
+    <section>
+        <header>
+            <h2>What's next?</h2>
+            <p>What new features will be available in the next release?</p>
+        </header>
+        <aside>
+            <h3>Count by day support</h3>
+            <p>The badge is counting visitors in all time, but it will be more useful to count visitors in current
+                date（24h）</p>
+        </aside>
+        <aside>
+            <h3>Statistics</h3>
+            <p>Line chart of visitors in latest 7 days</p>
+        </aside>
+        <aside>
+            <h3>Not your expectation?</h3>
+            <p><a href="https://github.com/jwenjian/visitor-badge/issues/new" target="_blank">Just tell me...</a></p>
+        </aside>
+    </section>
+</main>
+<footer>
+    <hr>
+    <p>
+        Made by <a href="https://github.com/jwenjian" target="_blank">Wenjian Jiang</a> and ❤️
+    </p>
+</footer>
 </body>
 
 </html>
