@@ -4,6 +4,10 @@ from flask import Flask, Response, request, render_template
 from pybadges import badge
 from hashlib import md5
 import requests
+from os import environ
+from dotenv import find_dotenv,load_dotenv
+
+load_dotenv(find_dotenv())
 
 app = Flask(__name__)
 
@@ -71,8 +75,9 @@ def index() -> Response:
 
 def identity_request_source() -> str:
     page_id = request.args.get('page_id')
-    if page_id is not None and page_id != '':
-        return md5(page_id.encode('utf-8')).hexdigest()
+    print(environ.get('md5_key'))
+    if page_id is not None and len(page_id):
+        return md5(page_id.encode('utf-8')).update(environ.get('md5_key').encode('utf-8')).hexdigest()
     return None
 
 
