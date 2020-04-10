@@ -75,9 +75,10 @@ def index() -> Response:
 
 def identity_request_source() -> str:
     page_id = request.args.get('page_id')
-    print(environ.get('md5_key'))
     if page_id is not None and len(page_id):
-        return md5(page_id.encode('utf-8')).update(environ.get('md5_key').encode('utf-8')).hexdigest()
+        m = md5(page_id.encode('utf-8'))
+        m.update(environ.get('md5_key').encode('utf-8'))
+        return m.hexdigest()
     return None
 
 
