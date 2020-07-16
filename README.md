@@ -10,7 +10,9 @@ You can:
 
 Sorry for the inconvenience.
 
-If you deployed to your stable server and want to provide a free, stable service, which is very kind, please raise an issue to tell me so I can list your service url here:
+If you deployed forked project to your stable server and want to provide a free, stable service, which is very kind, please raise an issue to tell me so I can list your service url here:
+
+> Before you do that, **DO update the md5_key in .env file to `guess_what`** so that former users will not lose their count, otherwise the count will start from 1.
 
 Other public services:
 
