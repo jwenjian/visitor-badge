@@ -10,6 +10,13 @@ You can:
 
 Sorry for the inconvenience.
 
+If you deployed to your stable server and want to provide a free, stable service, which is very kind, please raise an issue to tell me so I can list your service url here:
+
+Other public services:
+
+-  https://visitor-badge.laobi.icu 
+
+
 ---
 
 A badge generator service to count visitors of your markdown file.
