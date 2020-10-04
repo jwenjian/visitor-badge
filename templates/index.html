@@ -81,6 +81,22 @@
             </li>
         </ol>
         <p>or any other markdown content, please give an unique string to distinguish</p>
+        <h3>Shields.IO functionality</h3>
+        <p>
+            Visitor badge calls the Shields.IO API, so you can using most of their parameters to style your own badge.
+            Currently supported parameters are: <code>label</code>, <code>color</code>, <code>style</code>,
+            <code>logo</code>, <code>logoColor</code>, <code>logoWidth</code>, <code>link</code>,
+            <code>labelColor</code>, <code>cacheSeconds</code>. By default, <code>label</code> is 'visitors' and cannot
+            be an empty string, and <code>color</code> is #118bee.
+        </p>
+        <p>
+            For example, using this URL for an issue will give you a red message background, in the for-the-badge style
+            with a white GitHub logo before the label text:
+            <code>
+                https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge.issue.1&color=red&style=for-the-badge&logo=GitHub&logoColor=FFFFFF
+            </code>
+            See <a href="https://shields.io/" target="_blank">Shields.IO</a> for further details.
+        </p>
     </article>
     <hr>
     <div id="faq">
@@ -143,7 +159,6 @@
             <p><a href="https://paypal.me/jwenjian/5" target="_blank">PayPal</a></p>
             <p><a title="WeChat Pay donation link">WeChat Pay(coming soon)</a></p>
             <p><a title="Ali Pay donation link">Ali Pay(coming soon)</a></p>
-            </p>
         </aside>
     </section>
 </main>
