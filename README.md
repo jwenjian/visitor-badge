@@ -1,5 +1,9 @@
 # visitor-badge
 
+---
+**__RECREATION RECOMMENDATION:__ There exists a recreation of Visitor Badge which is written entirely from scratch but with EXTRA features and uses Golang instead. There is nearly ZERO drawback to trying this project as it transfers the same visitor count over. More details could be found [here](https://github.com/Nathan13888/visitor-badge)**
+---
+
 **The service is now deployed under a free version of glitch, so it will down if too many requests in the same time and I currently have no suitable credit card to upgrade my glitch to pro**
 
 You can:
