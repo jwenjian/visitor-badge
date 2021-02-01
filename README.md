@@ -17,7 +17,7 @@ If you deployed forked project to your stable server and want to provide a free,
 Other public services:
 
 -  https://visitor-badge.laobi.icu 
-
+-  https://page-views.glitch.me
 
 ---
 
