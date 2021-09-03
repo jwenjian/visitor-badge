@@ -56,7 +56,16 @@ def visitor_svg() -> Response:
     if not latest_count:
         return invalid_count_resp("Count API Failed")
 
-    svg = badge(left_text="visitors", right_text=str(latest_count))
+    # get left color and right color
+    left_color = "#595959" 
+    if request.args.get("left_color") is not None:
+      left_color = request.args.get("left_color")
+    
+    right_color = "#1283c3"
+    if request.args.get("right_color") is not None:
+      right_color = request.args.get("right_color")
+
+    svg = badge(left_text="visitors", right_text=str(latest_count), left_color=str(left_color), right_color=str(right_color))
 
     expiry_time = datetime.datetime.utcnow() - datetime.timedelta(minutes=10)
 
