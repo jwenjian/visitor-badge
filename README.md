@@ -16,6 +16,7 @@ If you deployed forked project to your stable server and want to provide a free,
 
 Other public services:
 
+-  https://visitor-badge.deta.dev/ (By [@Amresh Prasad Sinha](https://github.com/AmreshSinha))
 -  [https://visitor-badge-reloaded.herokuapp.com](https://github.com/Nathan13888/VisitorBadgeReloaded)
 -  https://visitor-badge.laobi.icu 
 -  https://page-views.glitch.me
