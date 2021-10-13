@@ -27,6 +27,9 @@ A badge generator service to count visitors of your markdown file.
 
 [The story of visitor badge](https://dev.to/jwenjian/the-story-of-visitor-badge-46mm)
 
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge&left_text=Hello Left Text) (customized left text, default is `visitors`)
+
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge) (default style)
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge&left_color=red&right_color=green) (left_color=red, right_color=green)
