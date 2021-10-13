@@ -65,7 +65,11 @@ def visitor_svg() -> Response:
     if request.args.get("right_color") is not None:
       right_color = request.args.get("right_color")
 
-    svg = badge(left_text="visitors", right_text=str(latest_count), left_color=str(left_color), right_color=str(right_color))
+    left_text = "visitors"
+    if request.args.get("left_text") is not None:
+        left_text = request.args.get("left_text")
+
+    svg = badge(left_text=left_text, right_text=str(latest_count), left_color=str(left_color), right_color=str(right_color))
 
     expiry_time = datetime.datetime.utcnow() - datetime.timedelta(minutes=10)
 
