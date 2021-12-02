@@ -1,6 +1,6 @@
 # visitor-badge
 
-**The service is now deployed under a free version of glitch, so it will down if too many requests in the same time and I currently have no suitable credit card to upgrade my glitch to pro**
+**The service is now deployed under a free version of glitch, so it will down if too many requests in the same time**
 
 You can:
 
