@@ -5,7 +5,7 @@ from pybadges import badge
 from hashlib import md5
 import requests
 from os import environ
-from dotenv import find_dotenv,load_dotenv
+from dotenv import find_dotenv, load_dotenv
 
 load_dotenv(find_dotenv())
 
@@ -21,7 +21,8 @@ def invalid_count_resp(err_msg) -> Response:
                 whole_link="https://github.com/jwenjian/visitor-badge")
     expiry_time = datetime.datetime.utcnow() - datetime.timedelta(minutes=10)
 
-    headers = {'Cache-Control': 'no-cache,max-age=0', 'Expires': expiry_time.strftime("%a, %d %b %Y %H:%M:%S GMT")}
+    headers = {'Cache-Control': 'no-cache,max-age=0',
+               'Expires': expiry_time.strftime("%a, %d %b %Y %H:%M:%S GMT")}
 
     return Response(response=svg, content_type="image/svg+xml", headers=headers)
 
@@ -57,19 +58,20 @@ def visitor_svg() -> Response:
         return invalid_count_resp("Count API Failed")
 
     # get left color and right color
-    left_color = "#595959" 
+    left_color = "#595959"
     if request.args.get("left_color") is not None:
-      left_color = request.args.get("left_color")
-    
+        left_color = request.args.get("left_color")
+
     right_color = "#1283c3"
     if request.args.get("right_color") is not None:
-      right_color = request.args.get("right_color")
+        right_color = request.args.get("right_color")
 
     left_text = "visitors"
     if request.args.get("left_text") is not None:
         left_text = request.args.get("left_text")
 
-    svg = badge(left_text=left_text, right_text=str(latest_count), left_color=str(left_color), right_color=str(right_color))
+    svg = badge(left_text=left_text, right_text=str(latest_count),
+                left_color=str(left_color), right_color=str(right_color))
 
     expiry_time = datetime.datetime.utcnow() - datetime.timedelta(minutes=10)
 
@@ -96,4 +98,6 @@ def identity_request_source() -> str:
 
 
 if __name__ == '__main__':
-    app.run()
+    host = environ.get('host', '127.0.0.1')
+    port = environ.get('port', 5000)
+    app.run(host=host, port=port)
