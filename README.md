@@ -1,6 +1,8 @@
 # visitor-badge
 
-**The service is now deployed under a free version of glitch, so it will down if too many requests in the same time**
+> **Warning**
+>
+> **The service is now deployed under a free version of glitch, so it will down if too many requests in the same time**
 
 You can:
 
