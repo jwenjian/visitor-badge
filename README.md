@@ -23,6 +23,12 @@ Other public services:
 -  https://visitor-badge.laobi.icu 
 -  https://page-views.glitch.me
 
+Other implementations:
+
+> You can implement in other languages, if you has, please let me know and I will update this list.
+
+- NodeJS: [Lete114/visitor-badge](https://github.com/Lete114/visitor-badge)
+
 ---
 
 A badge generator service to count visitors of your markdown file.
