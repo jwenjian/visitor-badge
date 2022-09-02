@@ -10,25 +10,6 @@ You can:
 2. use [hits](https://github.com/dwyl/hits) instead
 3. consider a donation :-)
 
-Sorry for the inconvenience.
-
-If you deployed forked project to your stable server and want to provide a free, stable service, which is very kind, please raise an issue to tell me so I can list your service url here:
-
-> Before you do that, **DO update the md5_key in .env file to `guess_what`** so that former users will not lose their count, otherwise the count will start from 1.
-
-Other public services:
-
--  https://visitor-badge.deta.dev/ (By [@Amresh Prasad Sinha](https://github.com/AmreshSinha))
--  [https://visitor-badge-reloaded.herokuapp.com](https://github.com/Nathan13888/VisitorBadgeReloaded)
--  https://visitor-badge.laobi.icu 
--  https://page-views.glitch.me
-
-Other implementations:
-
-> You can implement in other languages, if you has, please let me know and I will update this list.
-
-- NodeJS: [Lete114/visitor-badge](https://github.com/Lete114/visitor-badge)
-
 ---
 
 A badge generator service to count visitors of your markdown file.
@@ -84,3 +65,24 @@ Examples:
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors) (left_color=red, right_color=green, left_text=Hello%20Visitors)
 
 <a href="https://www.producthunt.com/posts/visitor-count-badge-for-your-github-repo?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-visitor-count-badge-for-your-github-repo" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=195146&theme=dark" alt="Visitor count badge for your Github Repo - A github badge to count visitor to your repository | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+
+---
+
+
+If you deployed forked project to your stable server and want to provide a free, stable service, which is very kind, please raise an issue to tell me so I can list your service url here:
+
+> Before you do that, **DO update the md5_key in .env file to `guess_what`** so that former users will not lose their count, otherwise the count will start from 1.
+
+Other public services:
+
+-  https://visitor-badge.deta.dev/ (By [@Amresh Prasad Sinha](https://github.com/AmreshSinha))
+-  [https://visitor-badge-reloaded.herokuapp.com](https://github.com/Nathan13888/VisitorBadgeReloaded)
+-  https://visitor-badge.laobi.icu 
+-  https://page-views.glitch.me
+
+Other implementations:
+
+> You can implement in other languages, if you has, please let me know and I will update this list.
+
+- NodeJS: [Lete114/visitor-badge](https://github.com/Lete114/visitor-badge)
+
