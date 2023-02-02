@@ -7,7 +7,7 @@
 You can:
 
 1. fork this project and deploy under your glitch account and let it working for yourself, it should be enough.
-2. use [hits](https://github.com/dwyl/hits) instead
+2. use [hits](https://github.com/dwyl/hits) / [visitor-badge@plantree](https://plantree.github.io/project-docs/visitor-badge/introduction.html) as alternative solution
 3. consider a donation :-)
 
 ---
