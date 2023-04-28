@@ -3,6 +3,9 @@
 > **Warning**
 >
 > **The service is now deployed under a free version of glitch, so it will down if too many requests in the same time**
+>
+> Update at 2023-04-28: [CountAPI](https://countapi.xyz/) service is DOWN, looking for another alternative for now, but it takes time, you should condider using [hits](https://github.com/dwyl/hits) as alternative (more stable), see [issue #32](https://github.com/jwenjian/visitor-badge/issues/32) 
+
 
 You can:
 
