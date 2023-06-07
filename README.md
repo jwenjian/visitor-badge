@@ -78,14 +78,14 @@ If you deployed forked project to your stable server and want to provide a free,
 
 Other public services:
 
--  https://visitor-badge.deta.dev/ (By [@Amresh Prasad Sinha](https://github.com/AmreshSinha))
--  [https://visitor-badge-reloaded.herokuapp.com](https://github.com/Nathan13888/VisitorBadgeReloaded)
 -  https://visitor-badge.laobi.icu 
--  https://page-views.glitch.me
+-  ~~https://visitor-badge.deta.dev/ (By [@Amresh Prasad Sinha](https://github.com/AmreshSinha))~~ (NO LONGER AVAILABLE)
+-  ~~https://page-views.glitch.me~~ (NOT WOKRING)
 
 Other implementations:
 
 > You can implement in other languages, if you has, please let me know and I will update this list.
 
 - NodeJS: [Lete114/visitor-badge](https://github.com/Lete114/visitor-badge)
+- Go: [Nathan13888/VisitorBadgeReloaded](https://github.com/Nathan13888/VisitorBadgeReloaded)
 
